@@ -5,7 +5,7 @@ import Reset from "./styles/reset"
 import Root from "./styles/root"
 import Typography from "./styles/typography"
 
-export const Layout = ({ children }) => (
+const Layout = ({ children }) => (
   <>
     <Reset />
     <Root />
@@ -18,4 +18,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export { Layout }
