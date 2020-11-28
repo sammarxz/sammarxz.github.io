@@ -38,10 +38,9 @@ const Projects = () => {
               <figcaption>
                 <h2>Project Title</h2>
               </figcaption>
-              <Img fluid={item.fluid} />
             </Figure>
             <Description>
-              <p>My side-project recently reached ten thousand stars on Github. To be honest, the stars don't really matter, but the lessons I learned do. In this post, I'm going to share four of the most important lessons I learned.</p>
+              <p>Encouraging community engagement for a better college experience</p>
             </Description>
           </Link>
         </Article>

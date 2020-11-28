@@ -8,7 +8,7 @@ export const List = styled.section`
 `
 
 export const Description = styled.div`
-  padding: 1rem;
+  margin-top: 60px;
 
   p {
     color: var(--color-haze);
@@ -18,9 +18,9 @@ export const Description = styled.div`
 
 export const Figure = styled.figure`
   width: 100%;
-  height: 0;
-  overflow: hidden;
+  height: 260px;
   position: relative;
+
   div,
   img {
     width: 100%;
@@ -29,30 +29,11 @@ export const Figure = styled.figure`
   }
 
   div {
-    position: absolute;
-    left: 0;
-    top: 0;
     border-radius: 0.3em;
-    overflow: hidden;
-  }
-
-  img {
-    object-fit: cover;
   }
 
   figcaption {
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0) 100%
-    );
-    border-radius: 0.3em;
-    padding: 6rem 1rem 1rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9;
+    margin-top: 16px;
   }
 
   * {
@@ -101,10 +82,6 @@ export const Article = styled.article`
 
   a {
     display: block;
-  }
-
-  ${Figure} {
-    padding-top: 80%;
   }
 
 `
